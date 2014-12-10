@@ -44,7 +44,7 @@ $(document).ready(function(e){
 		element.innerHTML = 'Aceleracion en X: ' + acceleration.x + '<br />' +
 		                    'Aceleracion en Y: ' + acceleration.y + '<br />' +
 							'Aceleracion en Z: ' + acceleration.z + '<br />' +
-							'Intervalo: ' +       acceleration.timestamp + '<br />';
+							'Intervalo: '         +    acceleration.timestamp + '<br />';
 	}
 	
 	//error:falla al obtener la aceleracion
@@ -66,7 +66,7 @@ $(document).ready(function(e){
 							'Intervalo: '           + posicion.timestamp           + '<br />';
 	}
 							
-							//error el la geololizacion
+							//error en la geololizacion
 							//
 							function ErrorLocalizacion(error) {
 								alert('codigo: ' + error.code     + '\n' +
